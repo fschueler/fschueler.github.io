@@ -1,11 +1,23 @@
 <!DOCTYPE html>
-<html lang="en-US">
-<head>
+<html lang="en">
+  <head>
     <meta charset="utf-8">
-    <title>Simple Markdown site template</title>
-    <script src="document.min.js" userjs="user.js" icon="favicon.ico" id="DOC" onerror="var l=document.createElement('link'),s=document.createElement('script');l.rel='stylesheet';l.href='http://netdna.bootstrapcdn.com/bootstrap/3.0.3/css/bootstrap.min.css';l.id='bootstrap.css';l.auto='1';document.head.insertBefore(l,document.getElementById('DOC'));s.src='http://aplib.github.io/document.min.js';document.head.appendChild(s);"></script>
-</head>
-<body>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap 101 Template</title>
+<script src="document.min.js" userjs="user.js" icon="favicon.ico"></script>
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+  </head>
+  <body>
 
 <!--fixed-top-bar
 [navbar]
@@ -15,14 +27,40 @@
 * [Tutorials](tutorials.html)
 [/navbar]
 -->
+<!--header-panel
+# Peel
+Fully Automated Large Scale Experiments (FALSE)
+-->
 
-<p>Here's an example:</p>
+<!--left-side-panel
+Example Navigation:
 
-<pre><code>function test() {
-  console.log("notice the blank line before this function?");
+* [<button type="button" class="btn btn-xs btn-default">Link</button>](index.html)
+  * [Installation](index.html#Installation)
+  * [Pre-defined section names](index.html#pre-defined-section-names-)
+* [Layout](layout.html)
+-->
+
+<!--content-panel
+Here's an example:
+
+```scala
+def test() {
+  println("notice the blank line before this function?");
 }
-</code></pre>
+```
+-->
 
-<noscript><div class="alert alert-warning">This Website requires your browser to be JavaScript enabled.</div></noscript>
+<!--footer-panel
+footer here
+-->
+
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/bootstrap.min.js"></script>
+  </body>
+</html>
+
 </body>
 </html>
